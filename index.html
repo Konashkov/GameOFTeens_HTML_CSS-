@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="styles/media-queries.css">
+    <link rel="icon" type="image/img" href="./img/military-hat.png">
 </head>
 <body>
 <div class="top-menu indent">
@@ -37,19 +38,46 @@
         </div>
     </div>
 </div>
-<div class="contact indent">
-    <h3 class="contact_header" id="contact">Залишились запитання?</h3>
-    <form class="form" action="">
-        <label for="input_name" class="input_label">Ім'я</label>
-        <input required placeholder="Введіть свое ім'я" type="text" class="form_input" id="input_name">
-        <label class="input_label" for="input_email">E-mail</label>
-        <input required placeholder="Введіть свою пошту" type="text" class="form_input" id="input_email">
-        <label class="input_label" for="input_theme">Тема</label>
-        <input required placeholder="Тема" type="text" class="form_input" id="input_theme">
-        <label class="input_label" for="input_message">Повідомлення</label>
-        <textarea required placeholder="Повідомлення" class="form_textarea" id="input_message"></textarea>
-        <input type="submit" class="form_submit">
-    </form>
+<div class="who-we-are indent">
+    <div class="who-we-are_wrapper"></div>
+    <img src="img/who-we-are.jpg" class="who-we-are_img" alt="military">
+</div>
+<div class="spend indent" id="how-spend">
+    <h3 class="spend_header">Як ми витрачаємо гроші</h3>
+    <div class="spend_wrapper">
+        <div class="spend_tile">
+            <img src="./img/med.png" alt="med-icon" class="spend_img">
+            <p class="spend_text">Придбання медикаментів, витратних матеріалів та ліків для лікарень, де рятують
+                військових та цивільних, які отримують поранення;</p>
+        </div>
+        <div class="spend_tile">
+            <img src="./img/shield.png" alt="shield-icon" class="spend_img">
+            <p class="spend_text">Фінансування та підтримка існування шелтерів (прихистків), куди прибувають переселенці та постраждалі від війни;</p>
+        </div>
+
+        <div class="spend_tile">
+            <img src="./img/give-money.png" alt="shield-icon" class="spend_img">
+            <p class="spend_text">За замовчуванням необхідно підтримувати ТРО й ЗСУ, які боронять країну.</p>
+        </div>
+    </div>
+</div>
+<div class="donate indent" id="donate">
+    <h3 class="donate_header">Задонатити</h3>
+    <div class="donate_wrap">
+
+        <div class="donate_wrapper">
+            <label for="donate_img">Тик \/</label>
+            <br>
+            <a target="_blank" href="https://send.monobank.ua/jar/AgmAhTt1um" class="donate-nav"><img id="donate_img"
+                                                                                                      src="./img/monobank.jpg"
+                                                                                                      alt="mono-qr"
+                                                                                                      class="donate_img"></a>
+        </div>
+        <p class="donate_wrapper">OR</p>
+        <div class="donate_wrapper">
+            <p class="donate-text">Номер картки Банки <br>5375 4112 0226 7725</p>
+        </div>
+    </div>
 </div>
 <div class="our-team indent" id="our-team">
     <h3 class="our-team_header">Наша команда</h3>
@@ -72,42 +100,20 @@
         </div>
     </div>
 </div>
-<div class="donate indent" id="donate">
-    <h3 class="donate_header">Задонатити</h3>
-    <div class="donate_wrap">
 
-        <div class="donate_wrapper">
-            <label for="donate_img">Тик \/</label>
-            <br>
-            <a target="_blank" href="https://send.monobank.ua/jar/AgmAhTt1um" class="donate-nav"><img id="donate_img"
-                                                                                                      src="./img/monobank.jpg"
-                                                                                                      alt="mono-qr"
-                                                                                                      class="donate_img"></a>
-        </div>
-        <p class="donate_wrapper">OR</p>
-        <div class="donate_wrapper">
-            <p class="donate-text">Номер картки Банки <br>5375 4112 0226 7725</p>
-        </div>
-    </div>
-</div>
-<div class="spend indent" id="how-spend">
-    <h3 class="spend_header">Як ми витрачаємо гроші</h3>
-    <div class="spend_wrapper">
-        <div class="spend_tile">
-            <img src="./img/med.png" alt="med-icon" class="spend_img">
-            <p class="spend_text">Придбання медикаментів, витратних матеріалів та ліків для лікарень, де рятують
-                військових та цивільних, які отримують поранення;</p>
-        </div>
-        <div class="spend_tile">
-            <img src="./img/shield.png" alt="shield-icon" class="spend_img">
-            <p class="spend_text">Фінансування та підтримка існування шелтерів (прихистків), куди прибувають переселенці та постраждалі від війни;</p>
-        </div>
-
-        <div class="spend_tile">
-            <img src="./img/give-money.png" alt="shield-icon" class="spend_img">
-            <p class="spend_text">За замовчуванням необхідно підтримувати ТРО й ЗСУ, які боронять країну.</p>
-        </div>
-    </div>
+<div class="contact indent">
+    <h3 class="contact_header" id="contact">Залишились запитання?</h3>
+    <form class="form" action="">
+        <label for="input_name" class="input_label">Ім'я</label>
+        <input required placeholder="Введіть свое ім'я" type="text" class="form_input" id="input_name">
+        <label class="input_label" for="input_email">E-mail</label>
+        <input required placeholder="Введіть свою пошту" type="text" class="form_input" id="input_email">
+        <label class="input_label" for="input_theme">Тема</label>
+        <input required placeholder="Тема" type="text" class="form_input" id="input_theme">
+        <label class="input_label" for="input_message">Повідомлення</label>
+        <textarea required placeholder="Повідомлення" class="form_textarea" id="input_message"></textarea>
+        <input type="submit" class="form_submit">
+    </form>
 </div>
 <div class="footer">
     <a href="https://www.flaticon.com/" target="_blank" title="money icons" class="footer_anchor">Icons created by Freepik - Flaticon</a>

@@ -181,8 +181,15 @@ body {
 .footer{
     border-top:1px solid black;
     margin: 0 5vw 20px;
+    padding-top: 10px;
+    padding-left: 20px;
 }
 .footer_anchor{
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
+}
+/*WHO WE ARE*/
+.who-we-are_wrapper{
+    display: flex;
+    justify-content: space-between;
 }
