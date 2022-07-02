@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Finlandica', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 20px;
+}
+
+.indent {
+    margin: 0 5vw 100px;
+}
+
+/*TOP MENU*/
+.title-wrapper{
+    display: flex;
+}
+.title{
+    font-family: 'Lobster', cursive;;
+}
+
+.title_img{
+    height: 38px;
+    margin-left: 15px;
+}
+.top-menu_line {
+    height: 2px;
+    background-color: black;
+    margin: 20px 0;
+}
+
+.top-menu_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-menu_anchors {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.top-menu_anchor {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+.top-menu_anchor:last-child {
+    margin-right: 0;
+}
+.title_anchor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.top-menu_btn {
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #000;
+    height: 38px;
+}
+
+.top-menu_btn:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    transition: 0.5s;
+}
+
+.top-menu_contacts {
+    display: flex
+}
+
+.top-menu_contact {
+    display: block;
+}
+
+.top-menu_contact:last-child {
+    margin-left: 15px;
+}
+
+/*Contact*/
+.spend_header,
+.donate_header,
+.our-team_header,
+.contact_header{
+    font-size: 30px;
+    text-align:center;
+    margin-bottom: 20px;
+}
+.form_submit,
+.form_textarea,
+.form_input{
+    width: 70%;
+    height: 35px;
+    display: block;
+    padding-left:5px;
+    margin: auto auto 10px;
+}
+.input_label{
+    display: block;
+    width: 70%;
+    margin: auto auto 5px;
+}
+.form_submit{
+    width: 40%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+.form_submit:hover{
+    cursor: pointer;
+}
+
+.form_textarea{
+    padding-top:5px ;
+    min-height: 35px;
+    resize: vertical;
+}
+
+
+/*OUR TEAM*/
+.our-team_wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.our-team_person{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 25%;
+}
+.our-team_person--img{
+    width: 100%;
+}
+/*DONATE*/
+.donate_img{
+    width: 100%;
+}
+.donate_wrapper{
+    width: 30%;
+}
+.donate_wrapper:nth-child(2){
+    height: 60%;
+    border-right: #000 solid 1px;
+    border-left: #000 solid 1px;
+}
+.donate_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+/*SPEND*/
+.spend_header{
+    margin-bottom:50px ;
+}
+.spend_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.spend_tile{
+    width: 30%;
+    text-align:center;
+    align-items: center;
+}
+.spend_img{
+    width: 32px;
+}
+
+
+/*FOOTER*/
+.footer{
+    border-top:1px solid black;
+    margin: 0 5vw 20px;
+}
+.footer_anchor{
+    text-decoration: none;
+    color: black;
+}

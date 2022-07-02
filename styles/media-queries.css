@@ -1,0 +1,39 @@
+@media (max-width: 1050px) {
+    .top-menu_contacts {
+        display:block;
+        justify-content: space-between;
+    }
+    .top-menu_anchors{
+        justify-content: space-between;
+    }
+.bottom_wrapper{
+    display:block;
+    text-align: center;
+}
+}
+@media (max-width: 800px) {
+    .donate_wrap{
+        flex-direction: column;
+    }
+    .donate_wrapper{
+        margin-bottom: 20px;
+        width: 70%;
+    }
+    .donate_wrapper:nth-child(2){
+        border: 0;
+        border-bottom: 1px solid #000000;
+        border-top: 1px solid #000000;
+    }
+}
+@media (max-width: 500px) {
+    .our-team_wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .our-team_person{
+        width: 60%;
+    }
+    .title_img{
+        display: none;
+    }
+}
