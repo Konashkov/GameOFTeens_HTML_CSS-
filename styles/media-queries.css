@@ -11,6 +11,17 @@
     text-align: center;
 }
 }
+@media(max-width: 600px){
+    .spend_wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .spend_tile{
+        margin-bottom: 50px;
+        width: 70%;
+    }
+
+}
 @media (max-width: 800px) {
     .donate_wrap{
         flex-direction: column;
