@@ -193,3 +193,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.who-we-are_img{
+    width: 40%;
+}
