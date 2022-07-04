@@ -10,38 +10,46 @@
     <link rel="icon" type="image/img" href="./img/military-hat.png">
 </head>
 <body>
-<div class="top-menu indent">
+<header class="top-menu indent">
     <div class="top-menu_wrapper">
         <div class="title-wrapper">
             <h1 class="title">Допоможіть ЗСУ</h1>
             <img src="./img/ukraine.png" alt="heart" class="title_img">
         </div>
-        <a href="#contact" class="title_anchor">
-            <button class="top-menu_btn">Зв'язатися</button>
+        <a href="#contact" class="top-menu_btn">
+            Зв'язатись
         </a>
     </div>
     <div class="top-menu_line"></div>
     <div class="top-menu_wrapper bottom_wrapper">
 
-        <div class="top-menu_anchors">
+        <nav class="nav">
+            <div class="nav--wrap">
             <a href="#who-we-are" class="top-menu_anchor">Про нас</a>
             <a href="#how-spend" class="top-menu_anchor">Як витрачаємо гроші</a>
+            </div>
+            <div class="nav--wrap">
             <a href="#donate" class="top-menu_anchor">Задонатити</a>
-            <a href="#our-team" class="top-menu_anchor">Наша команда</a>
             <a href="#contact" class="top-menu_anchor">Залишились питання?</a>
-        </div>
+            </div>
+        </nav>
         <div class="top-menu_contacts">
-            <span class="top-menu_contact">konashkovolexiy@gmail.com</span>
-            <span class="top-menu_contact">+38 (012) 345 67 89</span>
+            <a target="_blank" href="mailto:konashkovolexiy@gmail.com" class="top-menu_contact">konashkovolexiy@gmail.com</a>
+            <a target="_blank " href="tel:#" class="top-menu_contact">+38 (012) 345 67 89</a>
         </div>
     </div>
-</div>
+</header>
+<main>
+
+
 <div class="who-we-are indent" id="who-we-are">
     <div class="who-we-are_wrapper">
         <h3 class="who-we-are_header">Про нас</h3>
-        <p class="who-we-are_text">Боротьба триває вже більше 120 днів. Ми існуємо вже поняд 120 днів. Днів єдності й незламності. За цей час ворог не
+        <p class="who-we-are_text">Боротьба триває вже більше 120 днів. Ми існуємо вже поняд 120 днів. Днів єдності й
+            незламності. За цей час ворог не
             зміг побороти дух бійців ЗСУ, рятувальників, медиків, волонтерів та цивільних українців. Ми впевнено робимо
-            те, що кожен з нас вміє найкраще – працюємо, допомагаємо та робимо благодійні внески. Для нас дуже важливі ви. Ваша допомога, ваші внески, ваше волонтерство </p>
+            те, що кожен з нас вміє найкраще – працюємо, допомагаємо та робимо благодійні внески. Для нас дуже важливі
+            ви. Ваша допомога, ваші внески, ваше волонтерство </p>
     </div>
     <img src="img/who-we-are.jpg" class="who-we-are_img" alt="military">
 </div>
@@ -68,41 +76,17 @@
 <div class="donate indent" id="donate">
     <h3 class="donate_header">Задонатити</h3>
     <div class="donate_wrap">
-
-        <div class="donate_wrapper">
-            <label for="donate_img">Тик \/</label>
-            <br>
-            <a target="_blank" href="https://send.monobank.ua/jar/AgmAhTt1um" class="donate-nav"><img id="donate_img"
-                                                                                                      src="./img/monobank.jpg"
-                                                                                                      alt="mono-qr"
-                                                                                                      class="donate_img"></a>
-        </div>
-        <p class="donate_wrapper">OR</p>
-        <div class="donate_wrapper">
-            <p class="donate-text">Номер картки Банки <br>5375 4112 0226 7725</p>
-        </div>
+        <a target="_blank" href="https://send.monobank.ua/jar/AgmAhTt1um" class="donate_anchor"><img
+                src="./img/mono-logo.png" alt="mono"
+                class="donate_img"></a>
+        <a target="_blank" href="https://blago.privatbank.ua/view/358" class="donate_anchor"><img src="./img/privat.png"
+                                                                                                  alt="privat"
+                                                                                                  class="donate_img"></a>
+        <a target="_blank" href="https://www.oschadbank.ua/pidtrimajte-zsu" class="donate_anchor"><img
+                src="./img/ozadbank.jpeg" alt=""
+                class="donate_img"></a>
     </div>
-</div>
-<div class="our-team indent" id="our-team">
-    <h3 class="our-team_header">Наша команда</h3>
-    <div class="our-team_wrapper">
 
-        <div class="our-team_person">
-            <img src="./img/me.jpg" alt="" class="our-team_person--img">
-            <span class="our-team_person--name">Олексій Конашков</span>
-            <span class="our-team_person--job">Designer</span>
-        </div>
-        <div class="our-team_person">
-            <img src="./img/me2.jpg" alt="" class="our-team_person--img">
-            <span class="our-team_person--name">Олексій Конашков</span>
-            <span class="our-team_person--job">TeamLead</span>
-        </div>
-        <div class="our-team_person">
-            <img src="./img/me.jpg" alt="" class="our-team_person--img">
-            <span class="our-team_person--name">Олексій Конашков</span>
-            <span class="our-team_person--job">FrontEnd developer</span>
-        </div>
-    </div>
 </div>
 
 <div class="contact indent">
@@ -119,13 +103,13 @@
         <input type="submit" class="form_submit">
     </form>
 </div>
-<div class="footer">
+</main>
+<footer>
     <a href="https://www.flaticon.com/" target="_blank" title="money icons" class="footer_anchor">Icons created by
         Freepik - Flaticon</a>
-    <p class="footer_text">Банка монобанк зроблена лише задля прикладу, НЕ треба кидати туди гроші</p>
     <p class="footer_text">Текст був частково взятий з сайту:<a target="_blank" class="footer_anchor"
                                                                 href="https://vikna.tv/styl-zhyttya/podorozhi/navit-kilka-gryven-ryatuyut-zhyttya-yak-praczyuyut-blagodijni-organizacziyi-pid-chas-vijny/">ТИК</a>
     </p>
-</div>
+</footer>
 </body>
 </html>
